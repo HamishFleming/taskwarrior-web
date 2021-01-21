@@ -1,3 +1,15 @@
+# Quick Patches:
+Initail build failed, citing an error in BigDecimal
+while this CAN be rectified by switching to a ruby version <2.7.x
+The issue lies in the third party library activesupport-3.2.22.5
+For compatability with the most recent versions of Ruby and Rails you can skip versioning ruby+rails  and just run:
+
+`gem install --default -v3.0.0 bigdecimal`
+
+working with rails 2.7.0 & 2.7.5
+
+
+
 # A Web Interface for Taskwarrior
 
 A lightweight, Sinatra-based web interface for the
