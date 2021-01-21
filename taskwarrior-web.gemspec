@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.0'
 
   s.add_dependency('sinatra')
+  s.add_dependency('bigdecimal', '3.0.0')
   s.add_dependency('parseconfig')
   s.add_dependency('vegas')
   s.add_dependency('rinku')
